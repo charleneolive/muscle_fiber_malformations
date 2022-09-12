@@ -200,8 +200,8 @@ def process_single_im(im, original_path, group_name):
 
 
 total_stats = {k:[] for k in 
-               ['image_name', 'group', 'num_branches', 'num_branches_per_area', 
-                'median_tortuosity', 'median_branch_distance', 
+               ['image_name', 'group', 'num_edge_segments', 'num_edge_segments_per_area', 
+                'median_tortuosity', 'median_edge_segment_distance', 
                 'orientation_radians_std','orientation_radians_iqr',
                'endpoint-to-endpoint','junction-to-endpoint','junction-to-junction','isolated cycle']}
 skeleton_dict = {}
